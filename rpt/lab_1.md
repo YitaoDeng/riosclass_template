@@ -16,13 +16,13 @@
 ## Open EDA flow
 ![2](./pic/5.png)
 1. The first run
-```C
+```r
 # config
 set ::env(LIB_SYNTH) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
 set ::env(LIB_FASTEST) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib"
 set ::env(LIB_SLOWEST) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lib/sky130_fd_sc_hd__ss_100C_1v60.lib"
 ```
-```C
+```r
 # result
 Number of wires:              51865
 Number of wire bits:          52044
@@ -35,13 +35,13 @@ Number of cells:              51971
 Chip area for module '\hehe': 561329.609600
 ```
 2. The second run
-```C
+```r
 # config
 set ::env(LIB_SYNTH) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lib/sky130_fd_sc_hd__tt_100C_1v80.lib"
 set ::env(LIB_FASTEST) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lib/sky130_fd_sc_hd__ff_100C_1v65.lib"
 set ::env(LIB_SLOWEST) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lib/sky130_fd_sc_hd__ss_n40C_1v28.lib"
 ```
-```C
+```r
 # result
 Number of wires:              51867
 Number of wire bits:          52046
