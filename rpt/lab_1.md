@@ -53,3 +53,4 @@ Number of processes:              0
 Number of cells:              51973
 Chip area for module '\hehe': 561338.368000
 ```
+Results can be seen in riosclass_template/openlane/
