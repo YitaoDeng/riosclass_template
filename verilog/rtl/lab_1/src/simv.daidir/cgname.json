@@ -1,0 +1,68 @@
+{
+    "_vcs_unit__998056680": [
+        "_vcs_unit__998056680",
+        "zDIe1",
+        "module",
+        1
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        2
+    ],
+    "hehe": [
+        "hehe",
+        "yKEmF",
+        "module",
+        3
+    ],
+    "l1dcache": [
+        "l1dcache",
+        "uHvq1",
+        "module",
+        4
+    ],
+    "l1icache_32": [
+        "l1icache_32",
+        "uSmnS",
+        "module",
+        5
+    ],
+    "sky130_sram_1rw1r_64x256_8": [
+        "sky130_sram_1rw1r_64x256_8",
+        "I5d42",
+        "module",
+        6
+    ],
+    "backend": [
+        "backend",
+        "WmIsv",
+        "module",
+        7
+    ],
+    "cu": [
+        "cu",
+        "kir1S",
+        "module",
+        8
+    ],
+    "csr": [
+        "csr",
+        "cNThd",
+        "module",
+        9
+    ],
+    "counter_rob": [
+        "counter_rob",
+        "YjKgm",
+        "module",
+        10
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        11
+    ]
+}

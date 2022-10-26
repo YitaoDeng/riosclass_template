@@ -57,6 +57,13 @@ module lr(
 // wire map_to_bus = (BUS_MAP_ADDR_LOWER <= lsq_req_addr_i && lsq_req_addr_i < BUS_MAP_ADDR_UPPER);
 wire map_to_bus = 0;
 
+reg bus_lock;
+reg [LSU_LSQ_SIZE_WIDTH - 1: 0] wb_lsq_index_save;
+reg [VIRTUAL_ADDR_LEN - 1 : 0] wb_addr_save;
+reg [WB_DATA_LEN-1:0] wb_data_save;
+reg [WB_DATA_LEN/8-1:0] wb_mask_save;
+reg wb_opcode_save;
+
 assign lsq_req_ready_o = map_to_bus? ~bus_lock : dcache_req_ready_i;
 
 assign dcache_req_valid_o = ~map_to_bus & lsq_req_valid_i;
@@ -67,6 +74,11 @@ assign dcache_req_addr_o = lsq_req_addr_i;
 assign dcache_req_data_o = lsq_req_data_i;
 assign dcache_req_lsq_index_o = lsq_req_lsq_index_i;
 
+wire[WB_DATA_LEN/8-1:0] wb_mask32 = lsq_req_size_i == 0 ? (4'h1 << lsq_req_addr_i[1:0]) :
+                 lsq_req_size_i == 1 ? (4'h3 << lsq_req_addr_i[1:0]) :
+                 lsq_req_size_i == 2 ? (4'hf << lsq_req_addr_i[1:0]) :
+                 4'b0; // wb mask is 32 bit, so size_i < 3
+
 assign wb_cyc_o = map_to_bus & lsq_req_valid_i | bus_lock;
 assign wb_stb_o = wb_cyc_o; // FIXME: risky assign 
 assign wb_we_o = bus_lock ? wb_opcode_save : lsq_req_opcode_i;
@@ -74,10 +86,6 @@ assign wb_adr_o = bus_lock ? wb_addr_save : lsq_req_addr_i;
 assign wb_dat_o = bus_lock ? wb_data_save : lsq_req_data_i[WB_DATA_LEN -1:0];
 assign wb_sel_o = bus_lock ? wb_mask_save : wb_mask32;
 
-wire[WB_DATA_LEN/8-1:0] wb_mask32 = lsq_req_size_i == 0 ? (4'h1 << lsq_req_addr_i[1:0]) :
-                 lsq_req_size_i == 1 ? (4'h3 << lsq_req_addr_i[1:0]) :
-                 lsq_req_size_i == 2 ? (4'hf << lsq_req_addr_i[1:0]) :
-                 4'b0; // wb mask is 32 bit, so size_i < 3
 wire wb_resp_valid = wb_ack_i & ~wb_opcode_save; // load and ack
 
 assign lsq_resp_valid_o = wb_resp_valid | dcache_resp_valid_i;
@@ -85,13 +93,6 @@ assign lsq_resp_lsq_index_o = wb_resp_valid ? wb_lsq_index_save : dcache_resp_ls
 assign lsq_resp_data_o = wb_resp_valid ? {32'b0, wb_dat_i} : dcache_resp_data_i;
 
 assign dcache_resp_ready_o = ~wb_resp_valid & lsq_resp_ready_i;
-
-reg bus_lock;
-reg [LSU_LSQ_SIZE_WIDTH - 1: 0] wb_lsq_index_save;
-reg [VIRTUAL_ADDR_LEN - 1 : 0] wb_addr_save;
-reg [WB_DATA_LEN-1:0] wb_data_save;
-reg [WB_DATA_LEN/8-1:0] wb_mask_save;
-reg wb_opcode_save;
 
 always @(posedge clk) begin
     if(rstn | flush) begin

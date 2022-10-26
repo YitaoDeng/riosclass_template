@@ -1,0 +1,142 @@
+0 
+55
++incdir+core_empty
++itf+/opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/linux64/lib/vcsdp_lite.tab
++libext+.v
++v2k
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/linux64/lib/libvirsim.so /opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/linux64/lib/liberrorinf.so /opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/linux64/lib/libsnpsmalloc.so /opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/opt/cad/synopsys/installs/verdi/Q-2020.03-SP2/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/include
+-Mxllcflags=
+-P
+-Xufe=2steps
+-debug_acc+fsdb
+-debug_access+all
+-fsdb
+-full64
+-gen_obj
+-kdb
+-picarchive
+-sverilog
+-y
+/opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/linux64/bin/vcs1
+/opt/cad/synopsys/installs/verdi/Q-2020.03-SP2/share/PLI/VCS/LINUX64/verdi.tab
+hehe.v
+params.vh
+bus_arbiter.v
+cache/l1dcache.v
+cache/l1icache_32.v
+cache/cacheblock/sky130_sram_1kbyte_1rw1r_32x256_8.v
+cache/cacheblock/sky130_sram_1rw1r_64x256_8.v
+cache/cacheblock/std_dffe.v
+cache/cacheblock/std_dffr.v
+core_empty/core_empty.v
+core_empty/pipeline/frontend.v
+core_empty/pipeline/backend.v
+core_empty/lsu/ac.v
+core_empty/lsu/agu.v
+core_empty/lsu/cu.v
+core_empty/lsu/lsq.v
+core_empty/lsu/nblsu.v
+core_empty/lsu/lr.v
+core_empty/units/
+39
+XDG_SESSION_ID=18208
+XDG_RUNTIME_DIR=/run/user/10213
+XDG_DATA_DIRS=/work/stu/ytdeng/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VSCODE_IPC_HOOK_CLI=/run/user/10213/vscode-ipc-2a5670de-8620-47d3-a95d-3d9dfed5387e.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/10213/vscode-git-a03c2a88b2.sock
+VSCODE_GIT_ASKPASS_NODE=/work/stu/ytdeng/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node
+VSCODE_GIT_ASKPASS_MAIN=/work/stu/ytdeng/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VMR_MODE_FLAG=64
+VERDI_HOME=/opt/cad/synopsys/installs/verdi/Q-2020.03-SP2
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/opt/cad/synopsys/installs/vcs/Q-2020.03-SP2
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/linux64
+TERM_PROGRAM_VERSION=1.72.2
+TERM_PROGRAM=vscode
+SSH_CONNECTION=10.11.230.64 57912 10.8.6.2 22
+SSH_CLIENT=10.11.230.64 57912 22
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PYTHONPATH=/usr/bin/python3.6
+OVA_UUM=0
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+JRE_HOME=/etc/alternatives/java_sdk_11_openjdk
+JAVA_HOME=/etc/alternatives/java_sdk_11_openjdk
+HISTCONTROL=ignoredups
+GIT_ASKPASS=/work/stu/ytdeng/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh
+COLORTERM=truecolor
+CLASS_PATH=.:/etc/alternatives/java_sdk_11_openjdk/lib
+0
+36
+1666609158 core_empty/units/counter_tmp.v
+1666609158 core_empty/units/fifo_tmp.v
+1666609158 core_empty/units/physical_regfile.v
+1666609158 core_empty/units/new_alu.v
+1666609158 core_empty/units/ins_buffer.v
+1666609158 core_empty/units/gshare.v
+1666609158 core_empty/units/fifo.v
+1666609158 core_empty/units/counter_rob.v
+1666609158 core_empty/units/btb.v
+1666612486 core_empty/units/rcu.v
+1666612355 core_empty/units/new_fu.v
+1666612355 core_empty/units/fetch.v
+1666612293 core_empty/units/excep_ctrl.v
+1666612288 core_empty/units/decode.v
+1666612283 core_empty/units/csr.v
+1666609158 core_empty/units/counter.v
+1666621832 core_empty/lsu/lr.v
+1666612140 core_empty/lsu/nblsu.v
+1666612134 core_empty/lsu/lsq.v
+1666612127 core_empty/lsu/cu.v
+1666612122 core_empty/lsu/agu.v
+1666612117 core_empty/lsu/ac.v
+1666612186 core_empty/pipeline/backend.v
+1666612193 core_empty/pipeline/frontend.v
+1666609158 core_empty/core_empty.v
+1666609158 cache/cacheblock/std_dffr.v
+1666609158 cache/cacheblock/std_dffe.v
+1666609158 cache/cacheblock/sky130_sram_1rw1r_64x256_8.v
+1666609158 cache/cacheblock/sky130_sram_1kbyte_1rw1r_32x256_8.v
+1666609158 cache/l1icache_32.v
+1666609158 cache/l1dcache.v
+1666797409 bus_arbiter.v
+1666609158 params.vh
+1666609158 hehe.v
+1602321813 /opt/cad/synopsys/installs/verdi/Q-2020.03-SP2/share/PLI/VCS/LINUX64/verdi.tab
+1602321640 /opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/linux64/lib/vcsdp_lite.tab
+4
+1602321632 /opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/linux64/lib/libvirsim.so
+1602321632 /opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/linux64/lib/liberrorinf.so
+1602321640 /opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/linux64/lib/libsnpsmalloc.so
+1602321632 /opt/cad/synopsys/installs/vcs/Q-2020.03-SP2/linux64/lib/libvfs.so
+1666798224 simv.daidir
+-1 partitionlib
