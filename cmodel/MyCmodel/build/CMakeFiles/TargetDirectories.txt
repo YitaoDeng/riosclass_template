@@ -1,0 +1,3 @@
+/work/stu/ytdeng/cmodel/MyCmodel/build/CMakeFiles/rebuild_cache.dir
+/work/stu/ytdeng/cmodel/MyCmodel/build/CMakeFiles/edit_cache.dir
+/work/stu/ytdeng/cmodel/MyCmodel/build/CMakeFiles/model.dir

@@ -1,0 +1,16 @@
+Design Name: hehe
+Run Directory: /openlane/designs/hehe/runs/RUN_2022.12.12_10.39.58
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/hehe/runs/RUN_2022.12.12_10.39.58/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/hehe/runs/RUN_2022.12.12_10.39.58/logs/signoff/hehe.lvs.lef.log
+Source not found.
+----------------------------------------
+
+Antenna Summary:
+No antenna report found.

@@ -1,0 +1,49 @@
+[
+{
+  "directory": "/work/stu/ytdeng/cmodel/MyCmodel/src/build",
+  "command": "/work/stu/ytdeng/gcc-demo/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-centos6/bin/riscv64-unknown-elf-g++   -I../include  -g   -std=c++11 -o CMakeFiles/model.dir/CPU/Decode.cpp.o -c /work/stu/ytdeng/cmodel/MyCmodel/src/CPU/Decode.cpp",
+  "file": "/work/stu/ytdeng/cmodel/MyCmodel/src/CPU/Decode.cpp"
+},
+
+{
+  "directory": "/work/stu/ytdeng/cmodel/MyCmodel/src/build",
+  "command": "/work/stu/ytdeng/gcc-demo/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-centos6/bin/riscv64-unknown-elf-g++   -I../include  -g   -std=c++11 -o CMakeFiles/model.dir/CPU/IF.cpp.o -c /work/stu/ytdeng/cmodel/MyCmodel/src/CPU/IF.cpp",
+  "file": "/work/stu/ytdeng/cmodel/MyCmodel/src/CPU/IF.cpp"
+},
+
+{
+  "directory": "/work/stu/ytdeng/cmodel/MyCmodel/src/build",
+  "command": "/work/stu/ytdeng/gcc-demo/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-centos6/bin/riscv64-unknown-elf-g++   -I../include  -g   -std=c++11 -o CMakeFiles/model.dir/CPU/Insn.cpp.o -c /work/stu/ytdeng/cmodel/MyCmodel/src/CPU/Insn.cpp",
+  "file": "/work/stu/ytdeng/cmodel/MyCmodel/src/CPU/Insn.cpp"
+},
+
+{
+  "directory": "/work/stu/ytdeng/cmodel/MyCmodel/src/build",
+  "command": "/work/stu/ytdeng/gcc-demo/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-centos6/bin/riscv64-unknown-elf-g++   -I../include  -g   -std=c++11 -o CMakeFiles/model.dir/CPU/Pc_gen.cpp.o -c /work/stu/ytdeng/cmodel/MyCmodel/src/CPU/Pc_gen.cpp",
+  "file": "/work/stu/ytdeng/cmodel/MyCmodel/src/CPU/Pc_gen.cpp"
+},
+
+{
+  "directory": "/work/stu/ytdeng/cmodel/MyCmodel/src/build",
+  "command": "/work/stu/ytdeng/gcc-demo/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-centos6/bin/riscv64-unknown-elf-g++   -I../include  -g   -std=c++11 -o CMakeFiles/model.dir/HEXParser/HEXParser.cpp.o -c /work/stu/ytdeng/cmodel/MyCmodel/src/HEXParser/HEXParser.cpp",
+  "file": "/work/stu/ytdeng/cmodel/MyCmodel/src/HEXParser/HEXParser.cpp"
+},
+
+{
+  "directory": "/work/stu/ytdeng/cmodel/MyCmodel/src/build",
+  "command": "/work/stu/ytdeng/gcc-demo/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-centos6/bin/riscv64-unknown-elf-g++   -I../include  -g   -std=c++11 -o CMakeFiles/model.dir/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /work/stu/ytdeng/cmodel/MyCmodel/src/build/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+  "file": "/work/stu/ytdeng/cmodel/MyCmodel/src/build/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+},
+
+{
+  "directory": "/work/stu/ytdeng/cmodel/MyCmodel/src/build",
+  "command": "/work/stu/ytdeng/gcc-demo/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-centos6/bin/riscv64-unknown-elf-g++   -I../include  -g   -std=c++11 -o CMakeFiles/model.dir/main.cpp.o -c /work/stu/ytdeng/cmodel/MyCmodel/src/main.cpp",
+  "file": "/work/stu/ytdeng/cmodel/MyCmodel/src/main.cpp"
+},
+
+{
+  "directory": "/work/stu/ytdeng/cmodel/MyCmodel/src/build",
+  "command": "/work/stu/ytdeng/gcc-demo/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-centos6/bin/riscv64-unknown-elf-g++   -I../include  -g   -std=c++11 -o CMakeFiles/model.dir/memory/Dram.cpp.o -c /work/stu/ytdeng/cmodel/MyCmodel/src/memory/Dram.cpp",
+  "file": "/work/stu/ytdeng/cmodel/MyCmodel/src/memory/Dram.cpp"
+}
+]
