@@ -1,0 +1,17 @@
+
+Input: /openlane/designs/hehe/runs/RUN_2023.01.20_06.26.02/results/routing/hehe.def
+Output: /openlane/designs/hehe/runs/RUN_2023.01.20_06.26.02/results/signoff/hehe.klayout.gds
+Design: hehe
+Technology File: /work/stu/ytdeng/Openlane/OpenLane/pdks/sky130A/libs.tech/klayout/tech/sky130A.lyt
+GDS File List: ['/work/stu/ytdeng/Openlane/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds']
+LEF File: /openlane/designs/hehe/runs/RUN_2023.01.20_06.26.02/tmp/merged.nom.lef
+
+[INFO] Clearing cells...
+[INFO] Merging GDS files...
+	/work/stu/ytdeng/Openlane/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+[INFO] Copying toplevel cell 'hehe'
+WARNING: no fill config file specified
+[INFO] Checking for missing GDS...
+[INFO] All LEF cells have matching GDS cells
+[INFO] Writing out GDS '/openlane/designs/hehe/runs/RUN_2023.01.20_06.26.02/results/signoff/hehe.klayout.gds'
+[INFO] Done.

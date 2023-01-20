@@ -1,0 +1,5 @@
+[WARNING]: There are max slew violations in the design at the typical corner. Please refer to 'designs/hehe/runs/RUN_2023.01.20_06.26.02/reports/signoff/24-rcx_sta.slew.rpt'.
+[WARNING]: There are max fanout violations in the design at the typical corner. Please refer to 'designs/hehe/runs/RUN_2023.01.20_06.26.02/reports/signoff/24-rcx_sta.slew.rpt'.
+[WARNING]: There are max capacitance violations in the design at the typical corner. Please refer to 'designs/hehe/runs/RUN_2023.01.20_06.26.02/reports/signoff/24-rcx_sta.slew.rpt'.
+[WARNING]: There are hold violations in the design at the typical corner. Please refer to 'designs/hehe/runs/RUN_2023.01.20_06.26.02/reports/signoff/24-rcx_sta.min.rpt'.
+[WARNING]: There are setup violations in the design at the typical corner. Please refer to 'designs/hehe/runs/RUN_2023.01.20_06.26.02/reports/signoff/24-rcx_sta.max.rpt'.
